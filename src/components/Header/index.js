@@ -20,6 +20,7 @@ export default function Header() {
                     <Link to="/peoples"><li>Personagens</li></Link>
                     <Link to="/planets"><li>Planetas</li></Link>
                     <Link to="/vehicles"><li>Veículos</li></Link>
+                    <Link to="/films"><li>Filmes</li></Link>
                 </ul>
             </div>
         </div>

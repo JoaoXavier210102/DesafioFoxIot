@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import personagens from "./components/peoples";
+import Films from "./components/films";
 import planetas from "./components/planets";
 import veiculos from "./components/vehicles";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -14,6 +15,7 @@ function App() {
   const [people, setPeople] = useState([]);
   const [planets, setPlanets] = useState([]);
   const [vehicles, setVehicles] = useState([]);
+  const [films, setFilms] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect (() => {
@@ -35,9 +37,16 @@ function App() {
       setVehicles(data.results);
     }
 
+    async function buscarFilmes(){
+      let res = await fetch("https://swapi.dev/api/films/?format=json");
+      let data = await res.json();
+      setFilms(data.results);
+    }
+
     buscarPessoas();
     buscarPlanetas();
     buscarVeiculos();
+    buscarFilmes();
 
     setLoading(false);
 
@@ -46,6 +55,7 @@ function App() {
   console.log("pessoas", people);
   console.log("planetas", planets);
   console.log("veiculos", vehicles);
+  console.log("Filmes", films);
 
   return (
     <div className="App">
@@ -72,6 +82,10 @@ function App() {
           
             <Route path="/vehicles" component={veiculos} data={vehicles}>
               {/* <vehicles /> */}
+            </Route>
+
+            <Route path="/films" component={Films}>
+
             </Route>
 
           </Switch>
