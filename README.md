@@ -18,9 +18,9 @@ Site desenvolvido para mostrar as informações de personagens, veículos, plane
 
 ##Facilidades: 
 
-1.Componentes foi algo bem tranquilo de aprender, basicamente são várias pequenas partes da página e isso facilita a manutenção e reutilização do código.
-2.CSS já tinha domínio o suficiente pra conseguir manipular e estilizar o site tranquilamente.
-3.Responsividade eu já tinha uma base de como implementar porém nunca tinha implementado nos meus projetos particulares, aqui foi a primeira vez que usei o tal do media query e realmente foi o que eu pensava... (foi fácil porém espero que tenha feito tudo certinho kkkkkk).
+1. Componentes foi algo bem tranquilo de aprender, basicamente são várias pequenas partes da página e isso facilita a manutenção e reutilização do código.
+2. CSS já tinha domínio o suficiente pra conseguir manipular e estilizar o site tranquilamente.
+3. Responsividade eu já tinha uma base de como implementar porém nunca tinha implementado nos meus projetos particulares, aqui foi a primeira vez que usei o tal do media query e realmente foi o que eu pensava... (foi fácil porém espero que tenha feito tudo certinho kkkkkk).
 
 ##Agradecimento:
 
