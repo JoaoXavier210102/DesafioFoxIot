@@ -20,6 +20,7 @@
 /* Cartão */
 
 .container-card{
+    width: auto;
     border-radius: 20px;
     border: 3px solid #140f24;
     background-color: black;
@@ -58,4 +59,5 @@ summary{
 
 .card-content p{
     font-style: italic;
+    word-break: break-all;
 }

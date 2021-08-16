@@ -9,7 +9,6 @@
 .Footer strong{
     color: white;
     font-style: italic;
-    border-bottom: 1px solid white;
 }
 
 .bb-8{
@@ -18,4 +17,20 @@
 
 .r2-d2{
     width: 75px;
+}
+
+@media (max-width: 750px){
+
+    .Footer strong{
+        text-align: center;
+    }
+
+    .bb-8{
+        width: 65px;
+    }
+    
+    .r2-d2{
+        width: 45px;
+    }
+
 }

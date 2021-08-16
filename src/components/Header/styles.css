@@ -49,3 +49,26 @@
     color: black;
     transform: scale(1.05);
 }
+
+/* Responsividade */
+
+@media (max-width: 750px){
+    .Header{
+        display: grid;
+        justify-content: center;
+    }
+
+    .container-logo{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .menu-itens{
+        margin-bottom: 20px;
+    }
+
+    .menu-itens li{
+        display: grid;
+        text-align: center;
+    }
+}

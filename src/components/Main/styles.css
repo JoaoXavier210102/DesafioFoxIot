@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/bg-star.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.text-main h1{
+    color: white;
+    font-size: 45px;
+}
+
+.text-main h2{
+    color: white;
+}
+
+.text-main p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.falcon{
+    max-width: 600px;
+}
+
+/* Responsividade */
+
+@media (max-width: 750px){
+
+    .content-main{
+        display: grid;
+        justify-content: center;
+    }
+
+    .text-main{
+        margin-top: 60px;
+    }
+
+    .text-main h1{
+        font-size: 35px;
+    }
+
+    .text-main h2{
+        font-size: 25px;
+    }
+
+    .falcon{
+        width: 300px;
+    }
+}

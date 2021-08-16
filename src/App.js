@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from "react";
 import './App.css';
 import Header from "./components/Header";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 import personagens from "./components/peoples";
 import planetas from "./components/planets";
 import veiculos from "./components/vehicles";
@@ -56,6 +57,10 @@ function App() {
           </Dimmer>
         ) : (
           <Switch>
+
+            <Route exact path="/" component={Main}>
+
+            </Route>
 
             <Route exact path="/peoples" component={personagens}>
               {/* <peoples /> */}
