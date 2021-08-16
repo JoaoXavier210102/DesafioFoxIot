@@ -1,0 +1,21 @@
+.Footer{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #140f24;
+    border-top: 3px solid #FFC500;
+}
+
+.Footer strong{
+    color: white;
+    font-style: italic;
+    border-bottom: 1px solid white;
+}
+
+.bb-8{
+    width: 100px;
+}
+
+.r2-d2{
+    width: 75px;
+}

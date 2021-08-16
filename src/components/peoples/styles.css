@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Conteúdo da página */
+
+.page-content{
+    
+    min-height: 100vw;
+    background-image: url("../../assets/bg-star.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+}
+
+/* Cartão */
+
+.container-card{
+    border-radius: 20px;
+    border: 3px solid #140f24;
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* Título do cartão (nome) */
+
+.card-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-name h1{
+    color: white;
+}
+
+/* Conteúdo do cartão */
+
+summary{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.card-content{
+    margin: 15px;
+}
+
+.card-content strong,p{
+    color: white;
+} 
+
+.card-content p{
+    font-style: italic;
+}
