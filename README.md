@@ -1,4 +1,6 @@
-# Para usar a aplicação faça os seguintes comando na pasta raiz:
+# Aplicação React.js usando API SWAPI (Star Wars)
+
+Use os comandos a baixo para usar:
 ### `npm install`
 ### `npm start`
 # Getting Started with Create React App
